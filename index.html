@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>HSC HUB</title>
+<style>
+body{
+font-family:Arial;
+background:#0f172a;
+color:white;
+text-align:center;
+padding:60px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+max-width:900px;
+margin:auto;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:16px;
+text-decoration:none;
+color:white;
+transition:0.2s;
+}
+
+.card:hover{
+background:#334155;
+transform:translateY(-4px);
+}
+</style>
+</head>
+
+<body>
+
+<h1>HSC HUB</h1>
+<p>Internal Operation Portal – PT High Speed Connection Network</p>
+
+<div class="grid">
+
+<a class="card" href="portal-sop/index.html">
+<h2>📘 Portal SOP</h2>
+<p>Standar Operasional Perusahaan</p>
+</a>
+
+<a class="card" href="knowledge-base/index.html">
+<h2>📚 Knowledge Base</h2>
+<p>Dokumentasi teknis internal</p>
+</a>
+
+<a class="card" href="noc-dashboard/index.html">
+<h2>📡 NOC Dashboard</h2>
+<p>Monitoring jaringan</p>
+</a>
+
+</div>
+
+</body>
+</html>
